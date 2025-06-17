@@ -49,6 +49,7 @@ int main(){
         bubbleSort(arr,N);
         end = clock();
         time_taken = ((double)(end-start))/CLOCKS_PER_SEC*1000;
+        printArray(arr[N]);
     }
-    printArray(arr[N]);
+ 
 }
